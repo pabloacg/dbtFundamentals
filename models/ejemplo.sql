@@ -1,1 +1,0 @@
-select * from pacosta_raw.jaffle_shop.customers
