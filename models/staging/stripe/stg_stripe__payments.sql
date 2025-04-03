@@ -8,4 +8,5 @@ select
     amount / 100 as amount,
     created as created_at
 
-from pacosta_raw.stripe.payment 
+from {{ source('stripe', 'payment') }} 
+
